@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import {Autoplay} from "swiper/modules"
+import {Autoplay} from "swiper/modules";
 import "swiper/css";
-;
+import controleGasto1 from "../imgs/controleGasto1.jpeg" ;
 
 const SERVICES = [
   {
@@ -12,8 +12,9 @@ const SERVICES = [
   },
   {
     id: 2,
-    title: "Executavel",
-    description: "Python, Pyside6.",
+    title: "Mobile",
+    description: "React-Native, Android.",
+    image:controleGasto1
   },
   {
     id: 3,
