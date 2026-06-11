@@ -4,6 +4,7 @@ import ContactSection from '../components/ContactSection'
 import MapSection from '../components/MapSection'
 import AboutSection from '../components/AboutSection'
 import Hero from '../components/Hero'
+import FooterSection from '../components/Footer'
 
 export default function Home() {
   return (
@@ -19,9 +20,12 @@ export default function Home() {
       
       {/*CONTACT */}
       <ContactSection />
+
       {/* MAPS */}
       <MapSection/>
 
+      {/* FOOTER */}
+      <FooterSection />
 
     </div>
   )
